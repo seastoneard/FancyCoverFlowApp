@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FancyCoverFlow">
+        <!--未选中item的透明度-->
+        <attr name="unselectedAlpha" format="float" />
+        <!--未选中item的饱和度-->
+        <attr name="unselectedSaturation" format="float" />
+        <!--未选中item的大小-->
+        <attr name="unselectedScale" format="float" />
+        <!--未选中item的旋转最大角度-->
+        <attr name="maxRotation" format="integer" />
+        <!--缩放的item的位置-->
+        <attr name="scaleDownGravity" format="float" />
+
+        <attr name="actionDistance" format="integer">
+            <enum name="auto" value="2147483647" />
+        </attr>
+    </declare-styleable>
+
+</resources>
